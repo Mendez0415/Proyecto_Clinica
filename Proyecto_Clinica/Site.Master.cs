@@ -13,5 +13,12 @@ namespace Proyecto_Clinica
         {
 
         }
+        protected void BtnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            //Abandonar la sesion
+            Session.Abandon();
+            //Redirigir a la pagina Login.aspx
+            Response.Redirect("Login.aspx");
+        }
     }
 }

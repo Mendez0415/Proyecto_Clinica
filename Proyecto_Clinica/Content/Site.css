@@ -19,3 +19,8 @@ textarea {
         padding: 0;
     }
 }
+.boton-cerrar-sesion {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
